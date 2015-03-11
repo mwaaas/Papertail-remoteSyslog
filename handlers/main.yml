@@ -1,0 +1,6 @@
+---
+# Handlers for Papertail
+- name: restart rsyslog
+  service: name=rsyslog state=restarted
+
+

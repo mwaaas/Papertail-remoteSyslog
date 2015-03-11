@@ -1,0 +1,6 @@
+files:
+  - /home/ubuntu/slash_air/*.log
+destination:
+  host: logs2.papertrailapp.com
+  port: {{ PAPERTRAILPORT }}  # NOTE: change to your Papertrail port
+  protocol: tls
